@@ -1,4 +1,4 @@
-package flower.store.Flowers;
+package flower.store.flow;
 
 import java.util.ArrayList;
 import java.util.List;

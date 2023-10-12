@@ -3,16 +3,10 @@ package flower.store;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import flower.store.Flowers.Rose;
-
-
-import flower.store.Flowers.FlowerPack;
-
-
-import flower.store.Flowers.FlowerBucket;
-
-
-import flower.store.Flowers.Flower;
+import flower.store.flow.Flower;
+import flower.store.flow.FlowerBucket;
+import flower.store.flow.FlowerPack;
+import flower.store.flow.Rose;
 
 import org.junit.jupiter.api.Assertions;
 
