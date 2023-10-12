@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 
 import flower.store.Flowers.Flower;
 import flower.store.Flowers.FlowerColor;
-import flower.store.Flowers.FlowerType;
 
 import java.util.Random;
 

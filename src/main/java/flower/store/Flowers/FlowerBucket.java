@@ -5,7 +5,7 @@ import java.util.List;
 
 public class FlowerBucket {
 
-    List<FlowerPack> flowerPacks = new ArrayList<>();
+    private List<FlowerPack> flowerPacks = new ArrayList<>();
 
     public void addFlowerPack(FlowerPack flowerPack) {
         flowerPacks.add(flowerPack);
