@@ -2,17 +2,17 @@ package flower.store;
 
 public class FlowerPack {
     private Flower flower;
-    private int quantity;
+    private int amount;
 
     private double packetPrice;
 
-    public FlowerPack(Flower newFlower, int newQuantity) {
-        flower = newFlower;
-        quantity = newQuantity;
+    public FlowerPack(Flower newFlower, int newAmount) {
+        this.flower = newFlower;
+        this.amount = newAmount;
     }
 
     public double getPrice() {
-        packetPrice = flower.getPrice() * quantity;
+        packetPrice = flower.getPrice() * amount;
         return packetPrice;
     }
 }

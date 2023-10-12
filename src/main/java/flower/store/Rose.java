@@ -1,5 +1,5 @@
 package flower.store;
 
-public class Rose {
+public class Rose extends Flower {
     private FlowerType flower = FlowerType.ROSE;
 }
