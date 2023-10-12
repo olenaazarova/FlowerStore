@@ -2,6 +2,18 @@ package flower.store;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import flower.store.Flowers.Rose;
+
+
+import flower.store.Flowers.FlowerPack;
+
+
+import flower.store.Flowers.FlowerBucket;
+
+
+import flower.store.Flowers.Flower;
+
 import org.junit.jupiter.api.Assertions;
 
 import java.util.Random;

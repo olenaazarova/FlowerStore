@@ -25,7 +25,7 @@
 //         this.flowerType = flowerType;
 //     }
 // }
-package flower.store;
+package flower.store.Flowers;
 
 import lombok.Getter;
 import lombok.Setter;
