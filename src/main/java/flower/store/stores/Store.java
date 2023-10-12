@@ -7,7 +7,7 @@ import lombok.Getter;
 
 @Getter
 public class Store {
-    public List<Item> items;
+    private List<Item> items;
 
     public List<Item> search(SearchFilter searchFilter) {
         List<Item> foundItems = new ArrayList<>();
